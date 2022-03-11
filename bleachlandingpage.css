@@ -1,0 +1,88 @@
+html {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'League Gothic', sans-serif;
+}
+#header {
+    display: flex;
+    position: fixed;
+    
+}
+
+.circle-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+#header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ #nav-bar {
+    display: flex;
+} 
+
+/* gap adds space between li's flex shrink to prevent overflow  */
+#nav-bar ul {
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 2rem;
+    flex-shrink: 1;
+}
+
+.ichigo {
+    border-radius: 20%; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* #about {
+    display: flex;
+    gap: 2rem;
+} */
+
+/* #shinigami {
+    display: flex;
+    gap: 2rem;
+} */
+
+/* adjust photo left side and same size */
+.chibi {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* for centering video */
+.demo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#alliance {
+    display: flex;
+}
+
+#alliance .options {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    #alliance .options {
+        #alliance .options {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+    }
+}
